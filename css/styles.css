@@ -62,8 +62,6 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
-  /* added */
-  overflow-x: hidden;
 }
 ul {
   list-style-type: none;
@@ -206,6 +204,9 @@ Navbar
   -webkit-box-align: center;
   align-items: center;
   padding: 1rem 2rem;
+  /* added */
+  width: 100%;
+  overflow-x: hidden;
 }
 .nav-toggle {
   background-color: transparent;
