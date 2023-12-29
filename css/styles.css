@@ -180,6 +180,8 @@ Navbar
   position: fixed;
   top: 0;
   left: 0;
+  /* right added */
+  right: 0;
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
@@ -204,9 +206,6 @@ Navbar
   -webkit-box-align: center;
   align-items: center;
   padding: 1rem 2rem;
-  /* added */
-  width: 100%;
-  overflow-x: hidden;
 }
 .nav-toggle {
   background-color: transparent;
