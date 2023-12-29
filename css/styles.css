@@ -63,7 +63,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
   /* added */
-  width: 100vw;
+  overflow-x: hidden;
 }
 ul {
   list-style-type: none;
@@ -266,8 +266,6 @@ Navbar
     align-items: center;
     /* optional */
     flex-wrap: wrap;
-    /* added */
-    width: 95vw;
   }
   .nav-links {
     height: auto;
