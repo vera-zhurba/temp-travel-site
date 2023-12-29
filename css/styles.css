@@ -180,8 +180,6 @@ Navbar
   position: fixed;
   top: 0;
   left: 0;
-  /* right added */
-  right: 0;
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
