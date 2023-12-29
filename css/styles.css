@@ -264,6 +264,7 @@ Navbar
     align-items: center;
     /* optional */
     flex-wrap: wrap;
+    width: 100%;
   }
   .nav-links {
     height: auto;
